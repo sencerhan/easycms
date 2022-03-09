@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Models\Admin;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Settings extends Model
+{
+    protected $table = 'site_settings';
+    protected $guarded = [];
+}
